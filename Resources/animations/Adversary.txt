@@ -1,0 +1,21 @@
+SplashKit Animation
+
+//Frames are declared with an f: and contain
+//the following comma separated values
+//ID,CELL,DUR,NEXT
+f:99,78,1,
+
+//Multi-frame: ranges are in[]
+//[a-b] = numbers from a to b inclusive
+//[a,b,c] = explicit values
+//[a-b,c] = combination
+f:[0-8],[143-151],3,0
+f:[9-17],[117-125],3,9
+
+i:WalkRight,0
+i:WalkLeft,9
+i:FaceForward,99
+
+v:[0-8],2,0
+v:[9-17],-2,0
+v:99,0,0

@@ -1,0 +1,25 @@
+SplashKit Animation
+
+//Frames are declared with an f: and contain
+//the following comma separated values
+//ID,CELL,DUR,NEXT
+f:99,78,1,
+
+//Multi-frame: ranges are in[]
+//[a-b] = numbers from a to b inclusive
+//[a,b,c] = explicit values
+//[a-b,c] = combination
+f:[0-8],[143-151],3,
+f:[9-17],[117-125],3,
+
+// -- Animation Identifiers --
+i:WalkRight,0
+i:WalkLeft,9
+i:FaceForward,99
+
+//v: identifier, change in x velocity, change in y velocity 
+v:[0-8],4,0
+v:[9-17],-4,0
+v:99,0,0
+
+//s: Identifier, SoundName, Filename 
